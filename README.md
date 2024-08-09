@@ -19,7 +19,11 @@ The **files are currently configured for the x22N board**. You can use another S
 **\platformio.ini file** - will need to update the board to have the correct model number
 
 **\src\_train22in.cpp file** - I've appended '.backup' to each .cpp file not in use to avoid compiling issues. There should only be one. 
-  
+
+
+---- If you decide you want to use another Sunton display board (besides the 22N or 24N), please refer to the following github repository which provides additional board definitions: 
+[https://github.com/rzeldent/platformio-espressif32-sunton](https://github.com/rzeldent/platformio-espressif32-sunton)
+
 The main things to update in the scripts are: 
 - You Wifi SSID
 - You Wifi Password
